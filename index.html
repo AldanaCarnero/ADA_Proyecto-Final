@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final - Aldana Carnero</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="./dog-r&m.jpg">
+    <style>
+        @import url(./get_schwifty.ttf);
+      </style>
+</head>
+<body>
+    <header>
+        <div class="contHeader">
+        </div>
+    </header>
+    <nav>
+        <div>
+        <button class="filters" id="allButton" onclick="getAll()">All</button>
+        <button class="filters" id="maleButton" onclick="getMales()">Male</button>
+        <button class="filters" id="femaleButton" onclick="getFemales()">Female</button>
+        <button class="filters" id="genderlessButton" onclick="getGenderless()">Genderless</button>
+        <button class="filters" id="unknownButton" onclick="getUnknown()">Unknown</button>
+        </div>
+    </nav>
+    <section>
+        <div id="personajes"></div>
+    </section>
+    <br>
+    <section>
+    <br>
+    </section>
+    <footer>
+        <div class="contFooter">
+        <p>© 2023 Aldana Carnero | All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

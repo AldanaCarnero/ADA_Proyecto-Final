@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: GetSchwifty;
+  src: url(./get_schwifty.ttf);
+}
+
+body {
+  font-family: GetSchwifty;
+  background-color: black;
+}
+
+.cardContainer {
+  background-image: url(https://i.blogs.es/669147/ram-s6-key--rt-1920x1080/840_560.jpeg);
+  background-attachment: scroll;
+}
+
+
+  nav {
+    background: black;
+    color: #17aabf;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .filters {
+    --color: 180,255, 100;
+    border-radius: .5em;
+    transition: .3s;
+    background-color: rgba(var(--color), .2);
+    color: rgb(var(--color));
+    fill: rgb(var(--color));
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 2px solid rgb(var(--color));
+    box-shadow: 0 0 10px rgba(var(--color), .4);
+    outline: none;
+    display: inline-table;
+    align-items: center;
+    padding: .5em 1em;
+  }
+
+  .contHeader {
+    background-color: black;
+    background-image: url(./Rick_and_Morty_title_card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .contFooter {
+    text-decoration: none;
+  }
+
+  .card {
+    width: 15%;
+    padding: 15px;
+    border-radius: 5%;
+    background-color: #88e441;
+    text-align: center;
+    display: inline-table;
+  }
+
+  .card {
+    width: 15%;
+    height: 15em;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 5%;
+    transition: all ease .3s;
+    margin: 3px;
+  }
+
+  .card:hover {
+    box-shadow: 0px 0px 15px 5px #88e441;
+    border: 2.5px solid rgba(255, 255, 255, 0.454);
+    cursor: pointer;
+  }
+
+  #paginado {
+    text-align: center;
+    justify-content: center;
+    height: 25px;
+  }
+
+  button {
+      --color: 180,255, 100;
+      border-radius: .5em;
+      transition: .3s;
+      background-color: rgba(var(--color), .2);
+      color: rgb(var(--color));
+      fill: rgb(var(--color));
+      font-family: monospace;
+      font-weight: bolder;
+      font-size: x-large;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      border: 2px solid rgb(var(--color));
+      box-shadow: 0 0 10px rgba(var(--color), .4);
+      outline: none;
+      display: inline-table;
+      align-items: center;
+      padding: .5em 1em;
+  }
+
+  button:hover {
+    background-color: rgba(var(--color), .4);
+  }
+    
+  footer {
+    background: black;
+    color: #17aabf;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .totalPJ {
+    font-size: 25px;
+    color: #17aabf;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .pageStyle {
+    color: #17aabf;
+    margin-top: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  #page {
+    font-size: 30px;
+  }
+
+  .activeButton {
+    background-color: #17aabf;
+  }
